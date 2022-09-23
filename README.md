@@ -2,7 +2,8 @@
 
 Project Author: Sara Harder
 
-This was the portfolio project for a web development class at Oregon State University.
+This was the portfolio project for a web development class at Oregon State University.\
+It is a full stack MERN app, using React and MongoDB.
 
 In order to use, make sure to download Node JS version 16, then open the `.env` file in the rest branch.\
 Substitute user and password in the MongoDB string with your own MongoDB credentials. 
