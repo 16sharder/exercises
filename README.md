@@ -1,4 +1,4 @@
-# The Exericse Log
+# The Exercise Log
 
 Project Author: Sara Harder
 
@@ -8,3 +8,5 @@ In order to use, make sure to download Node JS version 16, then open the `.env` 
 Substitute user and password in the MongoDB string with your own MongoDB credentials. 
 
 Open a new terminal, then type `npm install`and `npm start` for both folders.
+
+Completed June 2022
