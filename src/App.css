@@ -1,38 +1,118 @@
+.App-body{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: darkslateblue;
+  color: deepskyblue;
+  margin: 5px;
+  padding: 2.5px;
+}
+
+tr th{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16pt;
+  background-color: darkslateblue;
+  color: rgb(31, 171, 218);
+  border-color: rgb(22, 43, 43);
+  border-width: 1px;
+  border-style: solid;
+  margin: 0in;
+  padding-bottom: 0.1in;
+  padding-top: 0.1in;
+  padding-left: 0.2in;
+  padding-right: 0.2in;
+}
+
+tr td{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15pt;
+  background-color: rgb(89, 77, 166);
+  color: rgb(31, 171, 218);
+  border-color: rgb(22, 43, 43);
+  border-width: .5px;
+  border-style: solid;
+  margin: 0in;
+  padding-bottom: 0.1in;
+  padding-top: 0.1in;
+  padding-left: 0.2in;
+  padding-right: 0.2in;
+}
+
+table{
+  background-color: rgb(22, 43, 43);
+}
+
+input, button {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: medium;
+  background-color: darkslateblue;
+  color: deepskyblue;
+  margin: 5px;
+  padding: 2.5px;
+}
+
+select {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: darkslateblue;
+  color: deepskyblue;
+  margin: 5px;
+  margin-left: 0px;
+  padding: 2.5px;
+}
+
+h1 {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size:larger;
+  color: rgb(247, 234, 200);
+}
+
+h2 {
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size:larger;
+  color: rgb(247, 234, 200);
+  padding: 2.5px;
+  margin-top: .55in
+}
+
+h3 {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size:larger;
+  color: rgb(247, 234, 200);
+  margin: 0.25in;
+  padding: 2.5px;
+  margin-top: 1.25in
+}
+
+header, footer {
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: large;
+  background-color: rgb(37, 62, 62);
+  color: rgb(19, 22, 19);
+  padding: 2.5px;
+}
+
+nav {
+  position: fixed;
+  top: 5px;
+  left: 10px
+}
+
+.App-link {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size:15pt;
+  color: rgb(31, 171, 218);
+  margin: 5px;
+  padding: 5px;
+}
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color:rgb(37, 62, 62);
+  min-height: 82vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
